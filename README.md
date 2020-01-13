@@ -21,7 +21,7 @@
 </details>
 
 <details>
-<summary>Volume shotcut</summary>
+<summary>Volume shortcut</summary>
 
 <div style="text-align:center"><img src ="https://user-images.githubusercontent.com/20924010/55765751-c010b400-5aa3-11e9-8b78-e686b104c113.gif" width="50%" /></div>
 
@@ -44,13 +44,14 @@
 - [speaker](./speaker/speaker.lua) : Hammerspoon TTS service.
 - [usb](./usb/usb.lua) : Callbacks when add/remove usb devices.
 - [volume](./volume/volume.lua) : Hotkeys for volume control.
-- [wifi](./wifi/wifi.lua) : Callbacks when wifi state change.
-- [window](./window/window.lua) : Hotkeys for window mangement.
+- [wifi](./wifi/wifi.lua) : Callbacks when Wi-Fi state change.
+- [window](./window/window.lua) : Hotkeys for window management.
 - [weather](./weather/weather.lua) : Local weather state in mac menubar.
 
 ## Install
 
 - Install [Hammerspoon](https://www.hammerspoon.org/)
+- `rm -r ~/.hammerspoon`
 - `git clone https://github.com/wangshub/hammerspoon-config.git ~/.hammerspoon`
 
 ## License
